@@ -1,0 +1,14 @@
+<div class="bg-white w-4/5 lg:w-1/2 lg:h-4/5 rounded p-10 relative">
+  
+  @if (type == "showWorkshop") {
+    <app-see-workshops></app-see-workshops>
+  }
+
+  @if(type == "mobileFilter") {
+    <app-see-mobile-filter></app-see-mobile-filter>
+  }
+
+  <div class="absolute top-5 right-5 cursor-pointer" (click)="closeIt()">
+    <img src="closeIcon.svg" alt="" >
+  </div>
+</div>
