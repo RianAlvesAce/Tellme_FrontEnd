@@ -1,59 +1,33 @@
-# TellWorldFrontEnd
+# FrontEnd da Aplicação TellMe
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.2.
+Solução construida para facilitar a busca de informações sobre os eventos apresentados pela empresa.
 
-## Development server
+## Requisitos para rodar o sistema localmente:
+- Possuir o NodeJS 22.x instalado em sua maquina
+    - https://nodejs.org/pt
+- Ter o Angular CLI instalado na sua maquina
+    - Para instalar o Angular CLI, execute o comando abaixo:
+    ```bash
+    npm install -g @angular/cli
+    ```
 
-To start a local development server, run:
+## Como rodar localmente?
 
-```bash
-ng serve
+1. Clone o repositório:
+
+Crie uma pasta em algum lugar do seu sistema e navegue pelo terminal até ela, após isso, execute o comando abaixo:
+    
+```bash 
+https://github.com/RianAlvesAce/Tellme_FrontEnd.git
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+2. Acesse a pasta do projeto pelo terminal e execute o comando abaixo para instalar os pacotes do NodeJS:
 
 ```bash
-ng generate component component-name
+npm i
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+3. Por fim execute o comando abaixo para executar o servidor local na sua maquina:
 ```bash
-ng generate --help
+npm run start
 ```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
